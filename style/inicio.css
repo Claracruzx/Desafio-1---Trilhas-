@@ -1,0 +1,126 @@
+body {
+    background-image: url('../imgs/background-inicio.png');
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 232px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  width: 100%;        
+  gap: 10px;                    
+}
+
+.perfil p{
+    margin: 0;
+}
+
+#perfil-img{
+    height: 112px;
+    width: 112px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    object-fit: cover;
+}
+
+.links {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 16px;
+}
+
+.links button {
+    height: 56px;
+    width: 540px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 16px 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: translateY(-2px); 
+}
+
+.social-links img{
+  height: 24px;
+  width: 24px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 16px;
+    gap: 40px;
+    width: 588px;
+    height: auto; 
+}
+
+.conteudo p{
+    width: 800px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 900px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.171); 
+    width: 392px;
+    border-radius: 8px;
+    border: 1px solid #0000006b;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px); 
+}
+
+.card img {
+    align-self: center;
+    width: 360px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #dddddd3a;
+}
+
+.card-link {
+    color: #030303;
+    font-size: 0.9rem;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
